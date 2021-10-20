@@ -4,7 +4,6 @@ export const JogadorSchema = new Schema(
   {
     celular: {
       type: String,
-      unique: true,
     },
     email: {
       type: String,
